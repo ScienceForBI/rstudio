@@ -239,6 +239,7 @@ void setSize(pDevDesc pDev)
 {
    dev_desc::setSize(pDev);
    dev_desc::setSize(shadowDevDesc(pDev));
+   setDeviceAttributes(pDev);
 }
 
 void setDeviceAttributes(pDevDesc pDev)
