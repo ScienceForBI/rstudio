@@ -252,6 +252,10 @@ void setDeviceAttributes(pDevDesc pDev)
    pDev->top = shadowDev->top;
    pDev->right = shadowDev->right;
    pDev->bottom = shadowDev->bottom;
+   pDev->clipLeft = shadowDev->clipLeft;
+   pDev->clipTop = shadowDev->clipTop;
+   pDev->clipRight = shadowDev->clipRight;
+   pDev->clipBottom = shadowDev->clipBottom;
    
    pDev->cra[0] = shadowDev->cra[0];
    pDev->cra[1] = shadowDev->cra[1];
