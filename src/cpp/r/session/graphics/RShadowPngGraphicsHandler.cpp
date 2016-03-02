@@ -247,6 +247,11 @@ void setDeviceAttributes(pDevDesc pDev)
    if (shadowDev == NULL)
       return;
    
+   pDev->left = shadowDev->left;
+   pDev->top = shadowDev->top;
+   pDev->right = shadowDev->right;
+   pDev->bottom = shadowDev->bottom;
+   
    pDev->cra[0] = shadowDev->cra[0];
    pDev->cra[1] = shadowDev->cra[1];
    pDev->startps = shadowDev->startps;
